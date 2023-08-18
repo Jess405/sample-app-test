@@ -10,6 +10,9 @@ import java.io.IOException;
 public class App 
 {
     public static void main( String[] args ) throws IOException {
-        Calculator.chooseOperation();
+//        Calculator.chooseOperation();
+        UpperLowerCase uLCase= new UpperLowerCase();
+        System.out.println(uLCase.wordToLowerCase("Jessica Ogwu"));
+        System.out.println(uLCase.wordToUpperCase("Hello World!"));
     }
 }
